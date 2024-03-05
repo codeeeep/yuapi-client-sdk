@@ -10,6 +10,8 @@
 
 ## 如何使用
 
+> ❗ 注意：由于该项目使用 SpringBoot 的版本是 3.0.2，而 SpringBoot 在 3 版本之后就最低支持 JDK 17 了，所以请确保你的 JDK 版本为 17+，以及 SpringBoot 版本在 3 以上
+
 ### 引入依赖
 ```
 <dependency>
