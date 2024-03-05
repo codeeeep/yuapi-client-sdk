@@ -3,9 +3,7 @@ package io.github.codeeeep.client;
 import lombok.AllArgsConstructor;
 
 /**
- * @author codeep
- * @date 2024/3/5 14:40
- * @description: 在这里进行配置，简化用户配置流程
+ * 在这里进行配置，简化用户配置流程
  */
 @AllArgsConstructor
 public class YuApiClient {
@@ -21,9 +19,5 @@ public class YuApiClient {
         return "hello" + name;
     }
 
-
-    public String getApiKey(String apiKey) {
-        return "apiKey: " + apiKey;
-    }
 
 }

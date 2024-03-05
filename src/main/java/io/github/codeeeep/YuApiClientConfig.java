@@ -8,9 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author codeep
- * @date 2024/3/5 14:36
- * @description: 这是一个配置类
+ * 这是一个配置类
  */
 @Configuration
 @ConfigurationProperties("yuapi.client")
